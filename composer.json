@@ -1,0 +1,32 @@
+{
+    "name": "vaimo/module-stdout-json-logger",
+    "type": "magento2-module",
+    "description": "Magento 2 logging integration with stackdriver",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sami Asmundi",
+            "email": "sami.asmundi@vaimo.com"
+        },{
+            "name": "Eino Keskitalo",
+            "email": "eino.keskitalo@vaimo.com"
+        },{
+            "name": "Roberts Plorins",
+            "email": "roberts.plorins@vaimo.com"
+        }
+    ],
+    "require": {
+        "magento/framework": "*"
+    },
+    "keywords": [
+        "logging"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Vaimo\\StdoutJsonLogger\\": ""
+        }
+    }
+}
