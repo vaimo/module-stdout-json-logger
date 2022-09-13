@@ -6,7 +6,7 @@
 
 namespace Vaimo\StdoutJsonLogger\Plugin\Logger;
 
-use Magento\Framework\Logger\Monolog as Subject;
+use Monolog\Logger as Subject;
 use Vaimo\StdoutJsonLogger\Model\LoggerHandlerSorter;
 
 class Monolog
