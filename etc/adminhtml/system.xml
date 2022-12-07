@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!--
+ Copyright © Vaimo Group. All rights reserved.
+ See LICENSE for license details.
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <section id="dev">
+            <group id="debug">
+                <field id="stdout_json_logger_output_disabled" translate="label comment" type="select" sortOrder="100" showInDefault="1" showInWebsite="0">
+                    <label>Disable Stdout Json Logger Output</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                    <comment>Disable output of logs to stdout, for example when running automated tests</comment>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>
