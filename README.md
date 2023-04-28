@@ -10,7 +10,7 @@ Adds logging handler that outputs logs to Stdout (standard output) in JSON forma
 
 ## Features
 
-Output can be disabled by setting the `developer/debug/stdout_json_logger_output_disabled` config path to true. This is handy for example when running Magento integration tests - set this to true in `config-global.php` for cleaner output to cli when running tests.
+Output can be disabled by setting the `dev/debug/stdout_json_logger_output_disabled` config path to true. This is handy for example when running Magento integration tests - set this to true in `config-global.php` for cleaner output to cli when running tests.
 
 ## Support
 

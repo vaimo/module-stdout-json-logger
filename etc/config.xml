@@ -5,10 +5,10 @@
 -->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
     <default>
-        <develop>
+        <dev>
             <debug>
                 <stdout_json_logger_output_disabled>0</stdout_json_logger_output_disabled>
             </debug>
-        </develop>
+        </dev>
     </default>
 </config>
